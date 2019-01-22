@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/CardViewelevation"
+    android:layout_margin="@dimen/layoutmargin">
+
+    <LinearLayout
+        android:layout_margin="@dimen/layoutmargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="@dimen/layoutmargin"
+            android:id="@+id/rentcar_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:text="vbcvbcv"
+            android:textSize="@dimen/bigtext" />
+
+        <TextView
+            android:id="@+id/rentcar_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smalltext" />
+
+        <TextView
+            android:id="@+id/rentcar_workTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smalltext" />
+
+        <TextView
+            android:id="@+id/rentcar_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:textSize="@dimen/smalltext" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

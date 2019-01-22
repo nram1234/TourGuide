@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="tab_text_1">Historical</string>
+    <string name="tab_text_2">Event</string>
+    <string name="tab_text_3">restaurant</string>
+    <string name="tab_text_4">RentCar</string>
+    <string name="action_settings">Settings</string>
+    <string name="attending">ARE YOU ATTENDING</string>
+    <string name="event1data">10/10/2019</string>
+    <string name="event1address">10 Westpoint Arena</string>
+    <string name="event2data">5/2/2019</string>
+    <string name="event2address">43 hhbhdchdhyhgy</string>
+    <string name="pyramidstitle">Pyramids of Giza</string>
+    <string name="pyramidsdetail">"The last surviving of the Seven Wonders of the Ancient World, the Pyramids of Giza are one of the world's most recognisable landmarks. Built as tombs for the mighty Pharaohs and guarded by the enigmatic Sphinx, Giza's pyramid complex has awed travelers down through the ages and had archaeologists (and a fair few conspiracy theorists) scratching their heads over how they were built for centuries. Today, these megalithic memorials to dead kings are still as wondrous a sight as they ever were. An undeniable highlight of any Egypt trip, Giza's pyramids should not be missed"</string>
+    <string name="luxortitle">Luxor,s Karnak Temple and the Valley of the Kings</string>
+    <string name="luxordetail">"Famed for the Valley of the Kings, Karnak Temple, and the Memorial Temple of Hatshepsut, the Nile-side town of Luxor in Upper Egypt has a glut of tourist attractions. This is ancient Thebes, powerbase of the New Kingdom pharaohs, and home to more sights than most can see on one visit. While the East Bank brims with vibrant souk action, the quieter West Bank is home to a bundle of tombs and temples that has been called the biggest open air museum in the world. Spend a few days here exploring the colorful wall art of the tombs and gazing in awe at the colossal columns in the temples, and you'll see why Luxor continues to fascinate historians and archaeologists."</string>
+    <string name="rentcarname">Alamo</string>
+    <string name="rentcaraddress">"1501 NW 49th St, Suite 100\n Fort Lauderdale, FL 33309\n USA"</string>
+    <string name="rentcaraphone"> 1 8887498541</string>
+    <string name="rentcaraworkTime">24H</string>
+    <string name="restaurantname">"Belmond Le Manoir aux Quat'Saisons"</string>
+    <string name="restaurantdetail">"Drinks, Breakfast, Lunch, Dinner, Late Night "</string>
+    <string name="restaurantaddress">" Church Road, Great Milton OX44 7PD, England  "</string>
+    <string name="restaurantphone">+44 184278881</string>
+    <string name="restaurantemail">rdr@hh.com</string>
+    <string name="restaurantworkTime">1:00 PM-2:00 AM</string>
+</resources>
