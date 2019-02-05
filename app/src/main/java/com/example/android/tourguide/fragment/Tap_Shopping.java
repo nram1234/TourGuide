@@ -20,7 +20,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class Tap_RentCar extends Fragment {
+public class Tap_Shopping extends Fragment {
     @BindView(R.id.rentcar_recyclerView)
     RecyclerView recyclerView;
     List<RentCarDataType> data;

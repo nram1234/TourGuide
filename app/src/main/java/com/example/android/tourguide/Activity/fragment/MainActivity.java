@@ -1,11 +1,9 @@
 package com.example.android.tourguide.Activity.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +13,8 @@ import android.view.MenuItem;
 
 import com.example.android.tourguide.R;
 import com.example.android.tourguide.fragment.Tap_Event;
-import com.example.android.tourguide.fragment.Tap_Historical;
-import com.example.android.tourguide.fragment.Tap_RentCar;
+import com.example.android.tourguide.fragment.Tap_Hotels;
+import com.example.android.tourguide.fragment.Tap_Shopping;
 import com.example.android.tourguide.fragment.Tap_Restaurant;
 
 import butterknife.BindView;
@@ -70,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    Tap_Historical ta = new Tap_Historical();
+                    Tap_Hotels ta = new Tap_Hotels();
                     return ta;
                 case 1:
                     Tap_Event ta1 = new Tap_Event();
@@ -79,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     Tap_Restaurant ta2 = new Tap_Restaurant();
                     return ta2;
                 case 3:
-                    Tap_RentCar ta3 = new Tap_RentCar();
+                    Tap_Shopping ta3 = new Tap_Shopping();
                     return ta3;
                 default:
                     return null;
